@@ -1,0 +1,150 @@
+body {
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    flex-direction: column;
+}
+
+.info-body {
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tag{
+    width: 100%;
+    background: #337ab7;
+    padding: 10px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    float: left;
+    white-space: nowrap;
+    border-radius: .25em;
+    line-height: 25px;
+}
+
+.tag:hover{
+    cursor: pointer;
+}
+
+* {
+    font-family: 'Open Sans',Verdana,sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+input {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+button {
+    padding: 10px 15px;
+    background: #ffffff;
+    margin-right: 10px;
+    border: 2px solid #ffffff;
+    display: inline;
+}
+
+.main{
+    width: 450px;
+    height: 500px;
+    background: #ebebeb;
+    float: left;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video{
+    width: 90%;
+    background: #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result{
+    width: 90%;
+    background: #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+textarea{
+    width: 70%;
+    height: 200px;
+}
+
+.tags-copy{
+    width: 90%;
+    background: #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tags{
+    width: 90%;
+    background: #ebebeb;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .tags, .result, .video, .tags-copy{
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+}
+
+img{
+    width: 90%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
